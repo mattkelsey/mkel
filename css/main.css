@@ -12,12 +12,11 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
-   html {
+html {
     color: #222;
     font-size: 1em;
     line-height: 1.4;
 }
-
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
@@ -100,15 +99,46 @@ textarea {
 
 
 
+#particles {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
 
+.flex-parent {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
 
+.name {
+    display: flex;
+}
 
+.mkel {
+}
 
+.matthew {
+    writing-mode: tb-rl; 
+    text-orientation: upright;
+    letter-spacing: -0.45em;
+    margin-top: 0.08em;
+    margin-right: -0.3em;
+    margin-left: 1em;
+}
 
+.low-opacity {
+    opacity: .7;
+}
 
-
-
-
+body {
+    background-color: #1F5673;
+    font-family: "Source Code Pro";
+    font-size: 3em;
+}
 
 
 
