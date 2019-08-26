@@ -96,8 +96,13 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+i {
+    transition: all .2s ease-in-out;
+}
 
-
+i:hover {
+    transform: scale(1.3) rotate(10deg);
+}
 
 #particles {
     position: absolute;
@@ -122,6 +127,7 @@ textarea {
 
 .icons {
     font-size: 2em;
+    cursor: default;
 }
 
 #profile {
