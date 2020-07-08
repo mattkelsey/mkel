@@ -123,11 +123,32 @@ i:hover {
 .name {
     display: flex;
     font-size: 4.3em;
+    text-align: center;
+    line-height: 1em;
+    margin-top: .4em;
+    margin-bottom: .4em;
 }
 
 .icons {
     font-size: 3.5em;
     cursor: default;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-direction: row;
+}
+
+.icons1 {
+    margin-right: 32px;
+}
+
+@media screen and (max-width: 500px) {
+    .icons {
+        flex-direction: column;
+    }
+    .icons1 {
+        margin-right: 0px;
+    }
 }
 
 #profile {
